@@ -8,7 +8,13 @@
 # dans t0 à la fin du programme.
 
 mon_code: # <- Label
-li   t0, 32
-addi t0, t0, 0
+li   t0, 32 # load imediate: charge nombre sur max 12 bit dans un registre
+addi t0, t0, 32 #additionne operand1 et un immediat et stock le résultat dans destination
+
+# operand1
+
+# destination
 
 # Bonus: avoir 64 dans un registre en une seule instruction
+li   t1, 64 # load imediate: charge nombre sur max 12 bit dans un registre
+li   t2, 4096 # load imediate: charge nombre sur max 12 bit dans un registre
